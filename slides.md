@@ -20,7 +20,11 @@ mdc: true
 ---
 
 
-# 1 - 1 with BBBB
+<div style="display: flex; align-items: center; justify-content: center;">
+  <img src="./images/home.png" alt="Home Avatar" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+  1 - 1 with 
+  <img src="./images/coca-cola.jpg" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 10px;">
+</div>
 
 <div class="grid grid-cols-3 gap-4 mt-10">
   <div v-for="(topic, index) in topics" :key="topic.name" 
